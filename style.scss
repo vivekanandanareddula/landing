@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Cutive);
+
+*{
+	padding: 0; margin: 0; 
+}
+
+@media screen and (min-width: 0em){
+	article{
+		background-color: #cdeee1;
+		section.landing{
+			height: 100vh;
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+			padding: 2em;
+			h1, h2{
+				color: #70b99c;
+				font-family: 'Cutive', serif;
+				font-size: 3em;
+				line-height: 1.2;
+				a{
+					line-height: 1;
+					color: #469b79;
+					text-decoration: none;
+					border-bottom: dotted 0.1em #70b99c;
+				}
+			}
+			h1.highlight{
+				background-color: yellow;
+				font-size: 4em;
+				margin-bottom: 0.3em;
+			}
+			h2{
+				font-size: 2em;
+				text-align: center;
+			}
+			
+		}
+		
+	}
+
+}
+
