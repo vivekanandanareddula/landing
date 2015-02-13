@@ -7,6 +7,33 @@
 @media screen and (min-width: 0em){
 	article{
 		background-color: #cdeee1;
+		section.room{
+			min-height: 100vh;
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			justify-content: space-around;
+
+			.door{
+				width: 8em;
+				border: solid 0.1em #70b99c;
+				padding: 1.5em 0.5em;
+				font-family: 'Cutive', serif;
+				font-size: 2em;
+				margin: 0.25em 0;
+				a{	
+					color: #70b99c;
+					text-decoration: none;
+				}
+			}
+			.door:hover{
+				background-color: #70b99c;
+				cursor: pointer;
+				a{
+					color: #cdeee1;
+				}
+			}
+		}
 		section.landing{
 			height: 100vh;
 			display: flex;

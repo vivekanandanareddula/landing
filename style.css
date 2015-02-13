@@ -6,6 +6,27 @@
 @media screen and (min-width: 0em) {
   article {
     background-color: #cdeee1; }
+    article section.room {
+      min-height: 100vh;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-around; }
+      article section.room .door {
+        width: 8em;
+        border: solid 0.1em #70b99c;
+        padding: 1.5em 0.5em;
+        font-family: 'Cutive', serif;
+        font-size: 2em;
+        margin: 0.25em 0; }
+        article section.room .door a {
+          color: #70b99c;
+          text-decoration: none; }
+      article section.room .door:hover {
+        background-color: #70b99c;
+        cursor: pointer; }
+        article section.room .door:hover a {
+          color: #cdeee1; }
     article section.landing {
       height: 100vh;
       display: flex;
