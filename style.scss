@@ -6,6 +6,7 @@
 }
 
 @media screen and (min-width: 0em){
+
 	header{
 		position: fixed;
 		right: 1em;
@@ -18,6 +19,48 @@
 				width: 1.5em;
 				fill: #cdeee1;
 				background-color: #469b79;
+			}
+		}
+	}
+
+
+	.lightbox-target{
+		position: fixed;
+		top: -100%;
+		height: 100vh;
+		overflow: hidden;
+		a.lightbox-close{
+			.icon{
+				fill: #469b79;
+			}
+		}
+	}
+
+	.lightbox-target:target{
+		top: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100%;
+		opacity: 0.95;
+		color: white;
+		text-align: right;
+		background-color: black;
+		a.lightbox-close{
+			display: inline-block;
+			padding-top: 1em;
+			padding-right: 1em;
+			width: 2.5em;
+		}
+		ul{
+			text-align: center;
+			li{
+				padding: 1em;
+				list-style-type: none;
+				a{
+					text-decoration: none;
+					font-size: 1.5em;
+					color: white;
+				}
 			}
 		}
 	}
@@ -205,6 +248,14 @@
 		position: fixed;
 		right: 3em;
 		top: 3em;
+	}
+
+	.lightbox-target:target{
+		a.lightbox-close{
+			padding-top: 3em;
+			padding-right: 3em;
+			width: 2.5em;
+		}
 	}
 
 	article{
