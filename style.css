@@ -1,9 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Cutive);
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Cutive', serif; }
 
 @media screen and (min-width: 0em) {
+  header {
+    position: fixed;
+    right: 1em;
+    top: 1em; }
+    header a .icon {
+      padding: 0.5em;
+      border-radius: 50%;
+      border: dotted 0.1em #469b79;
+      width: 1.5em;
+      fill: #cdeee1;
+      background-color: #469b79; }
+
   article {
     background-color: #cdeee1; }
     article section {
@@ -20,7 +33,6 @@
         width: 8em;
         border: solid 0.1em #70b99c;
         padding: 0 0.5em;
-        font-family: 'Cutive', serif;
         font-size: 2em;
         margin: 0.25em 0; }
         article section.room .door .icon {
@@ -51,7 +63,6 @@
       padding: 0 2em; }
       article section.landing h1, article section.landing h2 {
         color: #70b99c;
-        font-family: 'Cutive', serif;
         font-size: 3em;
         line-height: 1.2; }
         article section.landing h1 a, article section.landing h2 a {
@@ -85,6 +96,18 @@
           article section.landing h2.pass a .icon {
             width: 1.2em; } }
 @media screen and (min-width: 40em) {
+  header {
+    position: fixed;
+    right: 1em;
+    top: 1em; }
+    header a .icon {
+      padding: 0.5em;
+      border-radius: 50%;
+      border: dotted 0.1em #469b79;
+      width: 1.5em;
+      fill: #469b79;
+      background-color: white; }
+
   article {
     background-image: url(images/mumbai.jpg);
     background-position: center center;
@@ -118,6 +141,11 @@
       article section.room .door:hover .icon {
         fill: #469b79; } }
 @media screen and (min-width: 60em) {
+  header {
+    position: fixed;
+    right: 3em;
+    top: 3em; }
+
   article section {
     padding: 0 10em; } }
 @media screen and (min-width: 70em) {
