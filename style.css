@@ -30,7 +30,11 @@
         article section.room .door a {
           color: #70b99c;
           text-decoration: none;
-          width: 6.5em; }
+          width: 6.5em;
+          display: flex;
+          align-items: center; }
+          article section.room .door a span {
+            padding-left: 0.3em; }
       article section.room .door:hover {
         background-color: #70b99c;
         cursor: pointer; }
