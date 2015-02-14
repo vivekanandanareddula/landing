@@ -76,6 +76,8 @@
         article section.landing h2.pass a {
           font-size: 0.6em;
           border-style: none;
-          color: white; } }
+          color: white; }
+          article section.landing h2.pass a .icon {
+            width: 1.2em; } }
 
 /*# sourceMappingURL=style.css.map */
