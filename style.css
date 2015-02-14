@@ -6,12 +6,13 @@
 @media screen and (min-width: 0em) {
   article {
     background-color: #cdeee1; }
+    article section {
+      padding: 0 3em; }
     article section.room {
       min-height: 100vh;
       display: flex;
-      flex-flow: column;
-      align-items: center;
-      justify-content: center; }
+      flex-flow: row wrap;
+      justify-content: space-around; }
       article section.room .door {
         display: flex;
         flex-flow: row nowrap;
@@ -86,6 +87,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; }
+    article section {
+      padding: 0 5em; }
     article section.landing h1 span, article section.landing h2 span {
       color: #f1f1f1;
       background-color: black;
@@ -95,11 +98,28 @@
       article section.landing h1 span a, article section.landing h2 span a {
         color: white;
         text-decoration: none;
-        border-bottom: dotted 0.1em #f1f1f1; } }
+        border-bottom: dotted 0.1em #f1f1f1; }
+    article section.room .door {
+      background-color: black;
+      opacity: 0.8; }
+      article section.room .door a {
+        color: white; }
+      article section.room .door .icon {
+        fill: white; }
+    article section.room .door:hover {
+      background-color: white;
+      opacity: 0.6; }
+      article section.room .door:hover a {
+        color: #469b79; }
+      article section.room .door:hover .icon {
+        fill: #469b79; } }
 @media screen and (min-width: 60em) {
-  article section.landing {
+  article section {
+    padding: 0 10em; } }
+@media screen and (min-width: 70em) {
+  article section {
     padding: 0 15em; }
-    article section.landing h2.pass a {
-      font-size: 1.5em; } }
+  article section.landing h2.pass a {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */
