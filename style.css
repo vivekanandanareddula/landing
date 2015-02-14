@@ -79,5 +79,27 @@
           color: white; }
           article section.landing h2.pass a .icon {
             width: 1.2em; } }
+@media screen and (min-width: 40em) {
+  article {
+    background-image: url(images/mumbai.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; }
+    article section.landing h1 span, article section.landing h2 span {
+      color: #f1f1f1;
+      background-color: black;
+      opacity: 0.8;
+      padding: 0.2em;
+      line-height: 2; }
+      article section.landing h1 span a, article section.landing h2 span a {
+        color: white;
+        text-decoration: none;
+        border-bottom: dotted 0.1em #f1f1f1; } }
+@media screen and (min-width: 60em) {
+  article section.landing {
+    padding: 0 15em; }
+    article section.landing h2.pass a {
+      font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */
