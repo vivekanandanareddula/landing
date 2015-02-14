@@ -11,15 +11,14 @@
       display: flex;
       flex-flow: column;
       align-items: center;
-      justify-content: space-around; }
+      justify-content: center; }
       article section.room .door {
         display: flex;
-        flex: row wrap;
-        justify-content: space-between;
+        flex-flow: row nowrap;
         align-items: center;
         width: 8em;
         border: solid 0.1em #70b99c;
-        padding: 1.5em 0.5em;
+        padding: 0 0.5em;
         font-family: 'Cutive', serif;
         font-size: 2em;
         margin: 0.25em 0; }
@@ -29,7 +28,8 @@
           max-width: 1.5em; }
         article section.room .door a {
           color: #70b99c;
-          text-decoration: none; }
+          text-decoration: none;
+          width: 6.5em; }
       article section.room .door:hover {
         background-color: #70b99c;
         cursor: pointer; }
