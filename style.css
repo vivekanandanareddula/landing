@@ -63,15 +63,19 @@
         display: flex;
         flex-flow: row nowrap;
         width: 8em;
+        min-height: 8em;
+        background-color: yellow;
         border: solid 0.1em #70b99c;
         padding: 0 0.5em;
         font-size: 2em;
         margin: 0.25em 0; }
         article section.room .door .icon {
+          background-color: blue;
           fill: #70b99c;
           min-width: 1.5em;
           max-width: 1.5em; }
         article section.room .door a {
+          background-color: red;
           color: #70b99c;
           text-decoration: none;
           width: 6.5em;
