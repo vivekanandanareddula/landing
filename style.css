@@ -79,9 +79,11 @@
           color: #70b99c;
           text-decoration: none;
           width: 7em; }
+          article section.room .door a span {
+            padding: 0.5em; }
           article section.room .door a .icon {
             fill: #70b99c;
-            width: 3em; }
+            width: 2em; }
       article section.room .door:hover {
         background-color: #70b99c;
         cursor: pointer; }
