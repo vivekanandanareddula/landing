@@ -64,22 +64,24 @@
         flex-flow: row nowrap;
         align-items: center;
         width: 8em;
-        min-height: 8em;
+        height: 8em;
         border: solid 0.1em #70b99c;
         padding: 0 0.5em;
         font-size: 2em;
         margin: 0.25em 0; }
         article section.room .door .icon {
           fill: #70b99c;
-          min-width: 1.5em;
-          max-width: 1.5em; }
+          width: 1em; }
         article section.room .door a {
           display: flex;
           flex-flow: column wrap;
           align-items: center;
           color: #70b99c;
           text-decoration: none;
-          width: 6.5em; }
+          width: 7em; }
+          article section.room .door a .icon {
+            fill: #70b99c;
+            width: 3em; }
       article section.room .door:hover {
         background-color: #70b99c;
         cursor: pointer; }
